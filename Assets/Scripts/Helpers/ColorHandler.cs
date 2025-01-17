@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 
@@ -8,6 +9,7 @@ public class ColorHandler : MonoBehaviour
     public Renderer TintRenderer;
     public int TintMaterialSlot;
     
+
     public void SetColor(Color c)
     {
         var prop = new MaterialPropertyBlock();
